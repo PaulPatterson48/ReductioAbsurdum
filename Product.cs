@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ReductioAbsurdum
+namespace ReductioAbsurdum //Here is the code
 {
     public class Product
     {
