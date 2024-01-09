@@ -8,6 +8,7 @@ namespace ReductioAbsurdum
         public decimal Price { get; set; }
         public bool Sold { get; set; }
         public DateTime DateStocked { get; set; }
+        public string ProductTypeId { get; set; }
         public int ManufactureYear { get; set; }
         public double Condition { get; set; }
         public int DaysOnShelf
@@ -20,14 +21,7 @@ namespace ReductioAbsurdum
         }
     }
 
-    public class ProductTypeId
-    {
-        public string Apparel { get; set; }
-        public string Potions { get; set; }
-        public string EnchantedObjects { get; set; }
-        public string Wands { get; set; }
-    }
-
+   
     public class Person
     {
         public string FirstName { get; set; }
